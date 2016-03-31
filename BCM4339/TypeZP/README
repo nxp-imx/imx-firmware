@@ -1,0 +1,22 @@
+*********************************************************************
+****************                                     ****************
+****************                                     ****************
+**************** Broadcom BCM4339 WiFi & BT firmware ****************
+****************                                     ****************
+****************                                     ****************
+*********************************************************************
+
+
+*********************************************************************
+********** Usage for Brillo OS in Freescale i.MX platforms **********
+**                                                                 **
+**   1. Sync all Brillo codes form AOSP.                           **
+**   2. Use $tools/bdk/brunch/brunch bsp download picoimx command  **
+**      to download the firmware to specific folder automatically. **
+**   3. Start to build images.                                     **
+**                                                                 **
+*********************************************************************
+      
+                            
+
+                                     Freescale Semiconductor, Inc.
