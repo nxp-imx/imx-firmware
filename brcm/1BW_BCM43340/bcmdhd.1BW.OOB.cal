@@ -1,0 +1,122 @@
+# Originally NVRAM file for BCM943341WLAGB_2 P203 board
+# For Murata 1BW
+manfid=0x2d0
+prodid=0x0653
+vendid=0x14e4
+devid=0x4386
+boardtype=0x0653
+boardrev=0x1203
+boardnum=22
+macaddr=00:90:4c:c5:12:38
+sromrev=3
+boardflags=0x0080201
+xtalfreq=37400
+nocrc=1
+ag0=255
+aa2g=1
+ccode=ALL
+#PA parameters for 2.4GHz
+pa0b0=6706
+pa0b1=-814
+pa0b2=-191
+tssifloor2g=64
+# rssi params for 2.4GHz
+rssismf2g=0xf
+rssismc2g=0x8
+rssisav2g=0x1
+cckPwrOffset=1
+PwrOffset40mhz2g=8
+# rssi params for 5GHz
+rssismf5g=0xf
+rssismc5g=0x7
+#rssisav5g=0x1
+rssisav5g=0x3
+#PA parameters for lower a-band
+pa1lob0=5785
+pa1lob1=-714
+pa1lob2=-172
+tssifloor5gl=32
+#PA parameters for midband
+pa1b0=5880
+pa1b1=-721
+pa1b2=-174
+tssifloor5gm=34
+#PA paramasdeters for high band
+pa1hib0=6206
+pa1hib1=-722
+pa1hib2=-147
+tssifloor5gh=32
+rxpo5g=0
+
+maxp2ga0=0x4c
+#  19dBm board limit; 18dBm target
+#Per rate power back-offs for g band, in .5 dB steps. Set it once you have the right numbers.
+cck2gpo=0x2222 
+# R6~54 13 dBm
+ofdm2gpo=0xaaaaaaaa
+# M0~M3 16 dBm board limit; 15 dBm target 
+mcs2gpo0=0xcccc
+# M7 16dBm; M6 16 dBm; M5 16 dBm; M4 16 dBm board limit; 15 dBm target 
+mcs2gpo1=0xcccc
+
+# max power for 5G 15 dBm
+maxp5ga0=0x3c
+# 15 dBm board limit; 14 dBm target 
+maxp5gla0=0x3c
+maxp5gha0=0x3c
+#Per rate power back-offs for a band, in .5 dB steps. Set it once you have the right numbers.
+ofdm5gpo=0x22222222
+# R54 15dBm; R48 15 dBm; R6~R36 15 dBm board limit; 14 dBm target 
+ofdm5glpo=0x22222222
+ofdm5ghpo=0x22222222
+mcs5gpo0=0x4444
+# M0~M4 15dBm max ; 14 dBm target
+mcs5gpo1=0x4444
+# M7 15 dBm; M6 15 dBm; M5 15 dBm board limit; 14 dBm target
+mcs5glpo0=0x4444
+mcs5glpo1=0x4444
+mcs5ghpo0=0x4444
+mcs5ghpo1=0x0000
+
+swctrlmap_2g=0x00080008,0x00100010,0x00080008,0x011010,0x11f
+#swctrlmap_5g=0x00020002,0x00040004,0x00020002,0x011010,0x2fe
+## For GN04100
+swctrlmap_5g=0x00040004,0x00020002,0x00040004,0x011010,0x2fe
+gain=32
+triso2g=8
+triso5g=8
+#tx parameters
+loflag=0
+iqlocalidx5g=40
+dlocalidx5g=70
+iqcalidx5g=50
+lpbckmode5g=1 
+txiqlopapu5g=0
+txiqlopapu2g=0
+dlorange_lowlimit=5
+txalpfbyp=1
+txalpfpu=1
+dacrate2xen=1
+papden2g=1
+papden5g=1
+#rx parameters
+gain_settle_dly_2g=4
+gain_settle_dly_5g=4
+noise_cal_po_2g=-1
+noise_cal_po_40_2g=-1
+noise_cal_high_gain_2g=73
+noise_cal_nf_substract_val_2g=346
+noise_cal_po_5g=-1
+noise_cal_po_40_5g=-1
+noise_cal_high_gain_5g=73
+noise_cal_nf_substract_val_5g=346
+cckpapden=1
+aci_detect_en_2g=1
+interference=3
+# OOB IRQ settings -- comment out next 4 "sd" parameters for SDIO In-Band
+sd_gpout=0
+sd_oobonly=1
+sd_gpval=1
+sd_gpdc=0
+Comment out HW_OOB setting -- not used for 1BW
+#mux_enab=0x11

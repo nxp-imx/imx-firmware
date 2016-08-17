@@ -1,0 +1,4 @@
+These subdirectories provide firmware for Broadcom Bluetooth and Wifi support for i.MX Linux Releases.
+
+A more complete installation for Broadcom Bluetooth and Wifi enablement is available on 
+nxp.com/imx6tools in the Broadcom Firmware package under Linux.
