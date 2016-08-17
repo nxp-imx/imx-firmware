@@ -1,0 +1,4 @@
+These subdirectories provide firmware for Broadcom Bluetooth and Wifi support for i.MX Android Brillo.
+
+Use the Android installation on nxp.com/imx6tools to get the complete Bluetooth and Wifi enablement
+on i.MX Android release.
