@@ -1,17 +1,10 @@
 NXP Software Content Register
 
 Package:                   imx-firmware/brcm
-
-Outgoing License:          LA_OPT_BASE_LICENSE
-
-License Files:             EULA.txt: LA_OPT_BASE_LICENSE
-
+Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies
+License Files:             EULA.txt
 Package Category:          BSP
-
-Type of content:           Binaries, recipes
-
+Type of content:           Binaries
 Description and comments:  Bluetooth Firmware in hcd files, Wifi firmware bin files.  cal text files
-
-Release Location:          N/A
-
+Release Location:          https://github.com/NXP/imx-firmware
 Origin:                    Broadcom Corporation (proprietary)
