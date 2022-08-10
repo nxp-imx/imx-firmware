@@ -1,8 +1,8 @@
-jXP Software Content Register
+NXP Software Content Register
 
 --------------------------------------------
 
-Package:                   FwImage_8997, FwImage_8987
+Package:                   FwImage_8997, FwImage_8987, FwImage_8801, FwImage_9098, FwImage_IW416, FwImage_IW612
 Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies
 License File:              EULA.txt
 Package Category:          BSP
