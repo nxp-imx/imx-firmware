@@ -1,8 +1,8 @@
-LA_OPT_NXP_Software_License v34 February 2022
+LA_OPT_NXP_Software_License v40 December 2022
 IMPORTANT.  Read the following NXP Software License Agreement ("Agreement")
 completely. By selecting the "I Accept" button at the end of this page, or by
 downloading, installing, or using the Licensed Software, you indicate that you
-accept the terms of the Agreement and you acknowledge that you have the
+accept the terms of the Agreement, and you acknowledge that you have the
 authority, for yourself or on behalf of your company, to bind your company to
 these terms. You may then download or install the file. In the event of a
 conflict between the terms of this Agreement and any license terms and
@@ -109,13 +109,13 @@ Section 2, are contained in Appendix A. The Licensed Software may be
 accompanied by a Software Content Register which will identify that portion of
 the Licensed Software, if any, that is subject to the different terms in
 Appendix A.
-2.5.         You may use subcontractors on your premises to exercise your
-rights under Section 2.2 and Section 2.3, if any, so long as you have an
-agreement in place with the subcontractor containing confidentiality
-restrictions no less stringent than those contained in this Agreement. You will
-remain liable for your subcontractors' adherence to the terms of this Agreement
-and for any and all acts and omissions of such subcontractors with respect to
-this Agreement and the Licensed Software.
+2.5.         You may use subcontractors to exercise your rights under Section
+2.2 and Section 2.3, if any, so long as you have an agreement in place with the
+subcontractor containing confidentiality restrictions no less stringent than
+those contained in this Agreement. You will remain liable for your
+subcontractors' adherence to the terms of this Agreement and for any and all
+acts and omissions of such subcontractors with respect to this Agreement and
+the Licensed Software.
 3.       LICENSE LIMITATIONS AND RESTRICTIONS.
 3.1.         The licenses granted above in Section 2 only extend to NXP
 Intellectual Property Rights that would be infringed by the unmodified Licensed
@@ -343,13 +343,13 @@ examination or audit.
 22.        NOTICES.             All notices and communications under this
 Agreement will be made in writing, and will be effective when received at the
 following addresses:
-          NXP:      	NXP B.V.
-                      	High Tech Campus 60
-                        5656 AG Eindhoven
-                       	The Netherlands
-                   	ATTN: Legal Department
+          NXP:      NXP B.V.
+                    High Tech Campus 60
+                    5656 AG Eindhoven
+                    The Netherlands
+                    ATTN: Legal Department
 
-          You:          The address provided at registration will be used.
+          You:      The address provided at registration will be used.
 
 23.        RELATIONSHIP OF THE PARTIES.     The parties are independent
 contractors. Nothing in this Agreement will be construed to create any
@@ -407,6 +407,9 @@ Any dispute or claim relating to your use of the Greengrass software will be
 resolved by binding arbitration, rather than in court, except that you may
 assert claims in small claims court if your claims qualify.
 
+Amazon: AWS Fleetwise software must be used consistent with the terms found
+here: https://github.com/aws/aws-iot-fleetwise-edge/blob/main/LICENSE.
+
 Amphion Semiconductor Ltd.: Distribution of Amphion software must be a part of,
 or embedded within, Authorized Systems that include an Amphion Video Decoder.
 
@@ -449,6 +452,13 @@ by licensees of the relevant Cadence SDK and distribution is limited to
 distribution of one copy embedded in a single NXP Product. Your use of Cadence
 NatureDSP Libraries whether in source code or in binary is restricted to NXP
 SoC based systems or emulation enablement based on NXP SoC.
+
+CEVA D.S.P. Ltd. and CEVA Technologies Inc. (“CEVA”): The CEVA-SPF2 linear
+algebra, CEVA-SPF2 Neural Network Libraries, CEVA-SPF2 Core Libraries,
+CEVA-SPF2 OpenAMP and CEVA-SPF2 STL licensed modules are owned by CEVA and such
+materials may only be used in connection with an NXP product containing the
+S250 or S125 integrated circuits, whether or not the CEVA-SPF2 Core is
+physically implemented and/or enabled on such NXP product
 
 Cirque Corporation: Use of Cirque Corporation technology is limited to
 evaluation, demonstration, or certification testing only. Permitted
@@ -505,10 +515,10 @@ Global Locate (Broadcom Corporation): Use of Global Locate, Inc. software is
 limited to evaluation and demonstration only.  Permitted distributions must be
 similarly limited.  Further rights must be obtained from Global Locate.
 
-LC3plus: LC3plus short frame audio codec features as defined in ETSI TS 103634
-are included in the code. To enable the LC3plus features in a final product, a
-license has to be obtained from Fraunhofer. More information can be found on
-the following web page:
+LC3plus: the LC3plus Low Complexity Communication Codec Plus (LC3plus) per ETSI
+TS 103 634 V1.3.1, is subject to ETSI Intellectual Property Rights Policy, See
+https://portal.etsi.org/directives/45_directives_jun_2022.pdf. For application
+in an End Product, Fraunhofer communication applies, see
 https://www.iis.fraunhofer.de/en/ff/amm/communication/lc3.html
 
 Microsoft: Except for Microsoft PlayReady software, if the Licensed Software
@@ -552,6 +562,10 @@ limited. Further rights must be obtained directly from MPEG LA.
 MQX RTOS Code: MQX RTOS source code may not be re-distributed by any NXP
 Licensee under any circumstance, even by a signed written amendment to this
 Agreement.
+
+NXP Voice Software: VoiceSpot, VoiceSeeker (including AEC), and Conversa may be
+used for evaluation or demonstration purposes only. Any commercial distribution
+rights are subject to a separate royalty agreement obtained from NXP.
 
 NXP Wireless Charging Library: License to the Software is limited to use in
 inductive coupling or wireless charging applications
@@ -615,6 +629,15 @@ Cortex-M3, Cortex-M4, Cortex-M33, Cortex-M7, and Cortex-A7 based products only.
 
 SEGGER Microcontroller - J-Link/J-Trace Software: Segger software must be used
 consistent with the terms found here: http://www.segger.com/jlink-software.html
+
+Synopsys/BLE Software: Your use of the Synopsys/BLE Software and related
+documentation is subject to the following:
+(1) Synopsys is third-party beneficiaries of, and thus may enforce against you,
+the license restrictions and confidentiality obligations in this agreement with
+respect to their intellectual property and proprietary information.
+(2) Your distribution of the Licensed Software shall subject any recipient to a
+written agreement at least as protective of the Licensed Software as provided
+in this Agreement.
 
 Synopsys/Target Compiler Technologies: Your use of the Synopsys/Target Compiler
 Technologies Licensed Software and related documentation is subject to the
