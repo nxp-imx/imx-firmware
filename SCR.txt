@@ -1,0 +1,34 @@
+NXP Software Content Register
+
+Package:                   imx-firmware/brcm
+Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies
+License Files:             EULA.txt
+Package Category:          BSP
+Type of content:           Binaries
+Description and comments:  Bluetooth Firmware in hcd files, Wifi firmware bin files.  cal text files
+Release Location:          https://github.com/NXP/imx-firmware
+Origin:                    Broadcom Corporation (proprietary)
+
+--------------------------------------------
+
+Package:                   cyw-wifi-bt/1FD_CYW4359,1CX_CYW4356,1DX_CYW43430,1MW_CYW43455, and ZP_CYW4339
+Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies
+License File:              EULA.txt
+Package Category:          BSP
+Type of content:           Binaries
+Description and comments:  BSP firmware - Bluetooth and WiFi
+Release Location:          https://github.com/NXP/imx-firmware
+Origin:                    Cypress Semiconductor Corporation (proprietary)
+
+--------------------------------------------
+
+Package:                   nxp/FwImage_8997, FwImage_8987, FwImage_8801, FwImage_9098, FwImage_IW416, FwImage_IW612
+Outgoing License:          LA_OPT_NXP_Software_License - Production Use, Section 2.3 applies
+License File:              EULA.txt
+Package Category:          BSP
+Type of content:           Binaries
+Description and comments:  BSP firmware - Bluetooth and WiFi
+Release Location:          https://github.com/NXP/imx-firmware
+Origin:                    NXP (proprietary)
+
+--------------------------------------------
