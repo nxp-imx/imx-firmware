@@ -21,7 +21,7 @@ INSTALLDIR ?= wlan_fw
 install:
 
 	@if [ ! -d $(INSTALLDIR) ]; then \
-		mkdir $(INSTALLDIR); \
+		mkdir -p $(INSTALLDIR); \
 	fi
 
 	install -m 0644 wifi_mod_para.conf $(INSTALLDIR)/
